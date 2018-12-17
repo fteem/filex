@@ -1,6 +1,11 @@
 defmodule Filex do
   @moduledoc """
-  Documentation for Filex.
+  Filex is a library that wraps file.io's API in an Elixir module. Allows
+  uploading files with configurable expiration time (days, weeks, months, years).
+
+  Functions available in `Filex`:
+  - `Filex.upload/1`
+  - `Filex.upload/3`
   """
 
   @doc """
