@@ -22,7 +22,8 @@ defmodule Filex.MixProject do
   defp deps do
     [
       {:httpoison, "~> 1.5.0"},
-      {:poison, "~> 4.0.1"}
+      {:poison, "~> 4.0.1"},
+      {:ex_doc, "~> 0.19.1"}
     ]
   end
 end
