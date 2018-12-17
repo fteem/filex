@@ -1,6 +1,6 @@
 # Filex
 
-A Elixir library that wraps [file.io](https://file.io)'s API, allowing 
+A Elixir library that wraps [file.io](https://file.io)'s API, allowing
 ephemeral file sharing/uploads via your Elixir apps.
 
 ## Installation
@@ -11,7 +11,7 @@ The package can be installed by adding `filex` to your list of dependencies in
 ```elixir
 def deps do
   [
-    {:filex, "~> 0.1.0"}
+    {:filex, git: "https://github.com/fteem/filex", tag: "0.1.0"}
   ]
 end
 ```
