@@ -6,6 +6,8 @@ defmodule Filex.MixProject do
       app: :filex,
       version: "0.1.0",
       elixir: "~> 1.7",
+      name: "Filex",
+      source_url: "https://github.com/fteem/filex",
       start_permanent: Mix.env() == :prod,
       test_coverage: [tool: ExCoveralls],
       preferred_cli_env: [
